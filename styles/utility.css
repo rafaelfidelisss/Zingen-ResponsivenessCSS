@@ -27,8 +27,15 @@
   display: grid;
 }
 
+.center-items {
+  align-items: center;
+}
+
 .gap-1 {
   gap: 1rem;
+}
+.gap-1\.5 {
+  gap: 1.5rem;
 }
 
 .desktop-only {
