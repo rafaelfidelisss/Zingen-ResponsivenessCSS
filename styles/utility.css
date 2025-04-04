@@ -1,15 +1,13 @@
+/* Padding utility classes */
 .px-lg {
   padding-inline: var(--px-lg);
 }
-
 .py-base {
   padding-block: var(--py-base);
 }
-
 .py-lg {
   padding-block: var(--py-lg);
 }
-
 .py-xl {
   padding-block: var(--py-xl);
 }
@@ -18,6 +16,19 @@
   --max-width: 375px;
   width: min(var(--max-width), 100% - var(--px-lg) * 2);
   margin-inline: auto;
+}
+
+/* Display utility classes */
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.gap-1 {
+  gap: 1rem;
 }
 
 .desktop-only {
