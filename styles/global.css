@@ -62,11 +62,9 @@ h1, h2, h3 {
 h1 {
   font-size: var(--fs-2xl);
 }
-
 h2 {
   font-size: var(--fs-xl);
 }
-
 h3 {
   font-size: var(--fs-lg);
 }
@@ -74,6 +72,17 @@ h3 {
 a {
   text-decoration: none;
   color: inherit;
+}
+a:hover {
+  background: linear-gradient(
+    90deg,
+    var(--brand-color-secondary) 0%,
+    var(--brand-color-primary) 100%
+  );
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 ul[role="list"] {
